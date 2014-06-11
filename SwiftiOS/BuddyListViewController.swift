@@ -81,13 +81,13 @@ class BuddyListViewController: UIViewController, UITableViewDelegate, UITableVie
   
   func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     println("didSelectRowAtIndexPath")
-    var userName: String? = onlineBuddies.objectAtIndex(indexPath.row) as? String
-    var storyBoard = UIStoryboard(name: "Main", bundle: nil)
-    var chatController: ChatViewController? = storyBoard.instantiateViewControllerWithIdentifier("chatViewController") as? ChatViewController
-    if let controller = chatController? {
-      controller.chatWithUser = userName!
-      presentModalViewController(controller, animated: true)
-    }
+//    var userName: String? = onlineBuddies.objectAtIndex(indexPath.row) as? String
+//    var storyBoard = UIStoryboard(name: "Main", bundle: nil)
+//    var chatController: ChatViewController? = storyBoard.instantiateViewControllerWithIdentifier("chatViewController") as? ChatViewController
+//    if let controller = chatController? {
+//      controller.chatWithUser = userName!
+//      presentModalViewController(controller, animated: true)
+//    }
 //    println(chatController)
   }
   
@@ -113,6 +113,19 @@ class BuddyListViewController: UIViewController, UITableViewDelegate, UITableVie
   func didDisconnect() {
     onlineBuddies.removeAllObjects()
     tView.reloadData()
+  }
+  
+  override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    if let controller: ChatViewController? = segue?.destinationViewController as? ChatViewController {
+      if let cell: UITableViewCell? = sender as? UITableViewCell {
+        var str = tView.indexPathForCell(cell).row
+        controller!.chatWithUser = onlineBuddies.objectAtIndex(str) as String
+      }
+    }
+    println("fuckthisshit \(sender)")
+    
   }
 
 }
