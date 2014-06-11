@@ -22,6 +22,11 @@ class SwiftiOSTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
+      self.measureBlock({
+        for i in 0..1000 {
+          println("i'm not so fast")
+        }
+        })
         XCTAssert(true, "Pass")
     }
     
