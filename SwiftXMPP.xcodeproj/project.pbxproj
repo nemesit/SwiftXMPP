@@ -64,7 +64,7 @@
 			containerPortal = 42644EE619471F0200852BEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 42644EED19471F0200852BEA;
-			remoteInfo = SwiftiOS;
+			remoteInfo = SwiftXMPP;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -78,7 +78,7 @@
 		42644F0019471F0200852BEA /* SwiftXMPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftXMPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42644F0519471F0200852BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42644F0619471F0200852BEA /* SwiftXMPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXMPPTests.swift; sourceTree = "<group>"; };
-		42A54DEB1947514C00EE0429 /* SwiftiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		42A54DEB1947514C00EE0429 /* SwiftXMPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftXMPP-Bridging-Header.h"; sourceTree = "<group>"; };
 		42E2D5EE1947608600DE0EFF /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		42E2D5EF1947608600DE0EFF /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		42E2D5F01947608600DE0EFF /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
@@ -221,12 +221,12 @@
 				42E2D6831947685D00DE0EFF /* MessageDelegate.swift */,
 				42644EF719471F0200852BEA /* Main.storyboard */,
 				42644EFA19471F0200852BEA /* Images.xcassets */,
-				42A54DEB1947514C00EE0429 /* SwiftiOS-Bridging-Header.h */,
+				42A54DEB1947514C00EE0429 /* SwiftXMPP-Bridging-Header.h */,
 				42644EF119471F0200852BEA /* Supporting Files */,
 				42EE7ED919498AB100FA04FD /* SwiftTests.playground */,
 			);
 			name = SwiftXMPP;
-			path = SwiftiOS;
+			path = SwiftXMPP;
 			sourceTree = "<group>";
 		};
 		42644EF119471F0200852BEA /* Supporting Files */ = {
@@ -244,7 +244,7 @@
 				42644F0419471F0200852BEA /* Supporting Files */,
 			);
 			name = SwiftXMPPTests;
-			path = SwiftiOSTests;
+			path = SwiftXMPPTests;
 			sourceTree = "<group>";
 		};
 		42644F0419471F0200852BEA /* Supporting Files */ = {
@@ -524,7 +524,7 @@
 			dependencies = (
 			);
 			name = SwiftXMPP;
-			productName = SwiftiOS;
+			productName = SwiftXMPP;
 			productReference = 42644EEE19471F0200852BEA /* SwiftXMPP.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -542,7 +542,7 @@
 				42644F0219471F0200852BEA /* PBXTargetDependency */,
 			);
 			name = SwiftXMPPTests;
-			productName = SwiftiOSTests;
+			productName = SwiftXMPPTests;
 			productReference = 42644F0019471F0200852BEA /* SwiftXMPPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -724,7 +724,7 @@
 					/usr/include/libxml2,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = /Users/fukurokujo/Documents/Development/SwiftiOS;
+				LIBRARY_SEARCH_PATHS = /Users/fukurokujo/Documents/Development/SwiftXMPP;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lxml2";
@@ -768,7 +768,7 @@
 					/usr/include/libxml2,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = /Users/fukurokujo/Documents/Development/SwiftiOS;
+				LIBRARY_SEARCH_PATHS = /Users/fukurokujo/Documents/Development/SwiftXMPP;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
@@ -783,7 +783,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = SwiftiOS/Info.plist;
+				INFOPLIST_FILE = SwiftXMPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -791,7 +791,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = SwiftXMPP;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftiOS/SwiftiOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftXMPP/SwiftXMPP-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -802,7 +802,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = SwiftiOS/Info.plist;
+				INFOPLIST_FILE = SwiftXMPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -810,14 +810,14 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = SwiftXMPP;
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftiOS/SwiftiOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftXMPP/SwiftXMPP-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		42644F0E19471F0200852BEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftiOS.app/SwiftiOS";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftXMPP.app/SwiftXMPP";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -826,7 +826,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftiOSTests/Info.plist;
+				INFOPLIST_FILE = SwiftXMPPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SwiftXMPPTests;
@@ -837,12 +837,12 @@
 		42644F0F19471F0200852BEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftiOS.app/SwiftiOS";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftXMPP.app/SwiftXMPP";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftiOSTests/Info.plist;
+				INFOPLIST_FILE = SwiftXMPPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SwiftXMPPTests;
