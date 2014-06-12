@@ -7,7 +7,7 @@
         <!--Buddy List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="BuddyListViewController" customModule="SwiftiOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="BuddyListViewController" customModule="SwiftXMPP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -67,7 +67,7 @@
         <!--Login View Controller-->
         <scene sceneID="IkH-mE-2GK">
             <objects>
-                <viewController storyboardIdentifier="loginViewController" id="emZ-jh-UfS" customClass="LoginViewController" customModule="SwiftiOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginViewController" id="emZ-jh-UfS" customClass="LoginViewController" customModule="SwiftXMPP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z9l-3O-xhR"/>
                         <viewControllerLayoutGuide type="bottom" id="2K5-QX-T4X"/>
@@ -177,7 +177,7 @@
         <!--Chat View Controller-->
         <scene sceneID="W8C-y7-OhP">
             <objects>
-                <viewController storyboardIdentifier="chatViewController" id="WIu-mP-mWw" customClass="ChatViewController" customModule="SwiftiOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="chatViewController" id="WIu-mP-mWw" customClass="ChatViewController" customModule="SwiftXMPP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Ng-k5-zY8"/>
                         <viewControllerLayoutGuide type="bottom" id="waj-As-bCY"/>

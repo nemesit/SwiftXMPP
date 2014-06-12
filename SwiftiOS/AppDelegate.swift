@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, XMPPStreamDelegate {
   var xmppStream: XMPPStream?
   var chatDelegate: ChatDelegate?
   var messageDelegate: MessageDelegate?
-  let login_server = "jabber.mafiasi.de"
+  var loginServer: String = ""
 
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
@@ -75,6 +75,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, XMPPStreamDelegate {
     
     var jabberID: String? = NSUserDefaults.standardUserDefaults().stringForKey("userID")
     var myPassword: String? = NSUserDefaults.standardUserDefaults().stringForKey("userPassword")
+    var server: String? = NSUserDefaults.standardUserDefaults().stringForKey("loginServer")
+    if server {
+      loginServer = server!
+    }
+
     
     if let stream = xmppStream? {
       if !stream.isDisconnected() {
@@ -147,9 +152,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, XMPPStreamDelegate {
 //        println(chatDelegate)
         if presenceFromUser != myUsername {
           if presenceType == "available" {
-            chatDelegate?.newBuddyOnLine("\(presenceFromUser)" + "@" + "\(login_server)")
+            chatDelegate?.newBuddyOnLine("\(presenceFromUser)" + "@" + "\(loginServer)")
           } else if presenceType == "unavailable" {
-            chatDelegate?.buddyWentOffline("\(presenceFromUser)" + "@" + "\(login_server)")
+            chatDelegate?.buddyWentOffline("\(presenceFromUser)" + "@" + "\(loginServer)")
           }
         }
       }

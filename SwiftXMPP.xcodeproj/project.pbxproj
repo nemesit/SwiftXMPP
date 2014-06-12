@@ -70,12 +70,12 @@
 
 /* Begin PBXFileReference section */
 		420F5F03194799560024DCA6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		42644EEE19471F0200852BEA /* SwiftiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42644EEE19471F0200852BEA /* SwiftXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42644EF219471F0200852BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42644EF319471F0200852BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42644EF819471F0200852BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42644EFA19471F0200852BEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		42644F0019471F0200852BEA /* SwiftiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42644F0019471F0200852BEA /* SwiftXMPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftXMPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42644F0519471F0200852BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42644F0619471F0200852BEA /* SwiftiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftiOSTests.swift; sourceTree = "<group>"; };
 		42A54DEB1947514C00EE0429 /* SwiftiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftiOS-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -168,6 +168,7 @@
 		42E2D681194764B600DE0EFF /* ChatDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDelegate.swift; sourceTree = "<group>"; };
 		42E2D6831947685D00DE0EFF /* MessageDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDelegate.swift; sourceTree = "<group>"; };
 		42E2D6851947701000DE0EFF /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		42EE7ED919498AB100FA04FD /* SwiftTests.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTests.playground; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,8 +204,8 @@
 		42644EEF19471F0200852BEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42644EEE19471F0200852BEA /* SwiftiOS.app */,
-				42644F0019471F0200852BEA /* SwiftiOSTests.xctest */,
+				42644EEE19471F0200852BEA /* SwiftXMPP.app */,
+				42644F0019471F0200852BEA /* SwiftXMPPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,6 +223,7 @@
 				42644EFA19471F0200852BEA /* Images.xcassets */,
 				42A54DEB1947514C00EE0429 /* SwiftiOS-Bridging-Header.h */,
 				42644EF119471F0200852BEA /* Supporting Files */,
+				42EE7ED919498AB100FA04FD /* SwiftTests.playground */,
 			);
 			path = SwiftiOS;
 			sourceTree = "<group>";
@@ -507,9 +509,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42644EED19471F0200852BEA /* SwiftiOS */ = {
+		42644EED19471F0200852BEA /* SwiftXMPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42644F0A19471F0200852BEA /* Build configuration list for PBXNativeTarget "SwiftiOS" */;
+			buildConfigurationList = 42644F0A19471F0200852BEA /* Build configuration list for PBXNativeTarget "SwiftXMPP" */;
 			buildPhases = (
 				42644EEA19471F0200852BEA /* Sources */,
 				42644EEB19471F0200852BEA /* Frameworks */,
@@ -519,14 +521,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftiOS;
+			name = SwiftXMPP;
 			productName = SwiftiOS;
-			productReference = 42644EEE19471F0200852BEA /* SwiftiOS.app */;
+			productReference = 42644EEE19471F0200852BEA /* SwiftXMPP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42644EFF19471F0200852BEA /* SwiftiOSTests */ = {
+		42644EFF19471F0200852BEA /* SwiftXMPPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42644F0D19471F0200852BEA /* Build configuration list for PBXNativeTarget "SwiftiOSTests" */;
+			buildConfigurationList = 42644F0D19471F0200852BEA /* Build configuration list for PBXNativeTarget "SwiftXMPPTests" */;
 			buildPhases = (
 				42644EFC19471F0200852BEA /* Sources */,
 				42644EFD19471F0200852BEA /* Frameworks */,
@@ -537,9 +539,9 @@
 			dependencies = (
 				42644F0219471F0200852BEA /* PBXTargetDependency */,
 			);
-			name = SwiftiOSTests;
+			name = SwiftXMPPTests;
 			productName = SwiftiOSTests;
-			productReference = 42644F0019471F0200852BEA /* SwiftiOSTests.xctest */;
+			productReference = 42644F0019471F0200852BEA /* SwiftXMPPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -560,7 +562,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 42644EE919471F0200852BEA /* Build configuration list for PBXProject "SwiftiOS" */;
+			buildConfigurationList = 42644EE919471F0200852BEA /* Build configuration list for PBXProject "SwiftXMPP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -573,8 +575,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42644EED19471F0200852BEA /* SwiftiOS */,
-				42644EFF19471F0200852BEA /* SwiftiOSTests */,
+				42644EED19471F0200852BEA /* SwiftXMPP */,
+				42644EFF19471F0200852BEA /* SwiftXMPPTests */,
 			);
 		};
 /* End PBXProject section */
@@ -663,7 +665,7 @@
 /* Begin PBXTargetDependency section */
 		42644F0219471F0200852BEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42644EED19471F0200852BEA /* SwiftiOS */;
+			target = 42644EED19471F0200852BEA /* SwiftXMPP */;
 			targetProxy = 42644F0119471F0200852BEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -786,7 +788,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftXMPP;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftiOS/SwiftiOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -805,7 +807,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftXMPP;
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftiOS/SwiftiOS-Bridging-Header.h";
 			};
 			name = Release;
@@ -825,7 +827,7 @@
 				INFOPLIST_FILE = SwiftiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftXMPPTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -841,7 +843,7 @@
 				INFOPLIST_FILE = SwiftiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftXMPPTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -849,7 +851,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42644EE919471F0200852BEA /* Build configuration list for PBXProject "SwiftiOS" */ = {
+		42644EE919471F0200852BEA /* Build configuration list for PBXProject "SwiftXMPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42644F0819471F0200852BEA /* Debug */,
@@ -858,7 +860,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42644F0A19471F0200852BEA /* Build configuration list for PBXNativeTarget "SwiftiOS" */ = {
+		42644F0A19471F0200852BEA /* Build configuration list for PBXNativeTarget "SwiftXMPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42644F0B19471F0200852BEA /* Debug */,
@@ -867,7 +869,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42644F0D19471F0200852BEA /* Build configuration list for PBXNativeTarget "SwiftiOSTests" */ = {
+		42644F0D19471F0200852BEA /* Build configuration list for PBXNativeTarget "SwiftXMPPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42644F0E19471F0200852BEA /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SwiftiOS.xcodeproj">
+      location = "self:SwiftXMPP.xcodeproj">
    </FileRef>
 </Workspace>

@@ -40,6 +40,9 @@ class LoginViewController: UIViewController {
         
         NSUserDefaults.standardUserDefaults().setValue(login, forKey: "userID")
         NSUserDefaults.standardUserDefaults().setValue(passwd, forKey: "userPassword")
+        let loginServer = login.componentsSeparatedByString("@")[1]
+        println("server: \(loginServer)")
+        NSUserDefaults.standardUserDefaults().setValue(loginServer, forKey: "loginServer")
         NSUserDefaults.standardUserDefaults().synchronize()
       }
     }
