@@ -162,28 +162,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, XMPPStreamDelegate {
     }
     
     
-//    var presenceType = didReceivePresence!.type()
-//    var myUsername = sender!.myJID.user
-//    var presenceFromUser = didReceivePresence!.from().user
-//    
-//    if !(presenceFromUser == myUsername) {
-//      if presenceType == "available" {
-//        chatDelegate!.newBuddyOnLine("\(presenceFromUser)" + "@" + "\(login_server)")
-//      } else if presenceType == "unavailable" {
-//        chatDelegate!.buddyWentOffline("\(presenceFromUser)" + "@" + "\(login_server)")
-//      }
-//    }
-    
   }
   
   
 }
-  
-  /*
-  func xmppStreamDidReceivePresence(sender: XMPPStream, presence: XMPPPresence) {
-    
-
-  */
-  
 
 
