@@ -11,7 +11,7 @@
 		42644EF419471F0200852BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42644EF319471F0200852BEA /* AppDelegate.swift */; };
 		42644EF919471F0200852BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42644EF719471F0200852BEA /* Main.storyboard */; };
 		42644EFB19471F0200852BEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42644EFA19471F0200852BEA /* Images.xcassets */; };
-		42644F0719471F0200852BEA /* SwiftiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42644F0619471F0200852BEA /* SwiftiOSTests.swift */; };
+		42644F0719471F0200852BEA /* SwiftXMPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42644F0619471F0200852BEA /* SwiftXMPPTests.swift */; };
 		42E2D5FE1947608600DE0EFF /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2D5EF1947608600DE0EFF /* DDAbstractDatabaseLogger.m */; };
 		42E2D5FF1947608600DE0EFF /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2D5F11947608600DE0EFF /* DDASLLogger.m */; };
 		42E2D6001947608600DE0EFF /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2D5F31947608600DE0EFF /* DDFileLogger.m */; };
@@ -77,7 +77,7 @@
 		42644EFA19471F0200852BEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42644F0019471F0200852BEA /* SwiftXMPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftXMPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42644F0519471F0200852BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42644F0619471F0200852BEA /* SwiftiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftiOSTests.swift; sourceTree = "<group>"; };
+		42644F0619471F0200852BEA /* SwiftXMPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXMPPTests.swift; sourceTree = "<group>"; };
 		42A54DEB1947514C00EE0429 /* SwiftiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftiOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		42E2D5EE1947608600DE0EFF /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		42E2D5EF1947608600DE0EFF /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
@@ -194,8 +194,8 @@
 		42644EE519471F0200852BEA = {
 			isa = PBXGroup;
 			children = (
-				42644EF019471F0200852BEA /* SwiftiOS */,
-				42644F0319471F0200852BEA /* SwiftiOSTests */,
+				42644EF019471F0200852BEA /* SwiftXMPP */,
+				42644F0319471F0200852BEA /* SwiftXMPPTests */,
 				42E2D5E819475F7D00DE0EFF /* Frameworks */,
 				42644EEF19471F0200852BEA /* Products */,
 			);
@@ -210,7 +210,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42644EF019471F0200852BEA /* SwiftiOS */ = {
+		42644EF019471F0200852BEA /* SwiftXMPP */ = {
 			isa = PBXGroup;
 			children = (
 				42644EF319471F0200852BEA /* AppDelegate.swift */,
@@ -225,6 +225,7 @@
 				42644EF119471F0200852BEA /* Supporting Files */,
 				42EE7ED919498AB100FA04FD /* SwiftTests.playground */,
 			);
+			name = SwiftXMPP;
 			path = SwiftiOS;
 			sourceTree = "<group>";
 		};
@@ -236,12 +237,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		42644F0319471F0200852BEA /* SwiftiOSTests */ = {
+		42644F0319471F0200852BEA /* SwiftXMPPTests */ = {
 			isa = PBXGroup;
 			children = (
-				42644F0619471F0200852BEA /* SwiftiOSTests.swift */,
+				42644F0619471F0200852BEA /* SwiftXMPPTests.swift */,
 				42644F0419471F0200852BEA /* Supporting Files */,
 			);
+			name = SwiftXMPPTests;
 			path = SwiftiOSTests;
 			sourceTree = "<group>";
 		};
@@ -656,7 +658,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42644F0719471F0200852BEA /* SwiftiOSTests.swift in Sources */,
+				42644F0719471F0200852BEA /* SwiftXMPPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
