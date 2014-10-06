@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            condition = "password == nil"
+            continueAfterRunningActions = "Yes"
+            filePath = "SwiftXMPP/AppDelegate.swift"
+            timestampString = "424251039.279172"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "connect()"
+            landmarkType = "5">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Log">
+                  <ActionContent
+                     message = "&quot;no password set&quot;"
+                     conveyanceType = "0">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftXMPP.AppDelegate.connect (SwiftXMPP.AppDelegate)() -&gt; Swift.Bool"
+                  moduleName = "SwiftXMPP"
+                  urlString = "file:///Users/fukurokujo/Documents/Development/SwiftXMPP/SwiftXMPP/AppDelegate.swift"
+                  timestampString = "424177329.428295"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "2814">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftXMPP.AppDelegate.connect (SwiftXMPP.AppDelegate)() -&gt; Swift.Bool"
+                  moduleName = "SwiftXMPP"
+                  urlString = "file:///Users/fukurokujo/Documents/Development/SwiftXMPP/SwiftXMPP/AppDelegate.swift"
+                  timestampString = "424177329.428481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "7987">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftXMPP/AppDelegate.swift"
+            timestampString = "424251039.279172"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "connect()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftXMPP.AppDelegate.connect (SwiftXMPP.AppDelegate)() -&gt; Swift.Bool"
+                  moduleName = "SwiftXMPP"
+                  urlString = "file:///Users/fukurokujo/Documents/Development/SwiftXMPP/SwiftXMPP/AppDelegate.swift"
+                  timestampString = "424181290.581556"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "3533">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftXMPP.AppDelegate.connect (SwiftXMPP.AppDelegate)() -&gt; Swift.Bool"
+                  moduleName = "SwiftXMPP"
+                  urlString = "file:///Users/fukurokujo/Documents/Development/SwiftXMPP/SwiftXMPP/AppDelegate.swift"
+                  timestampString = "424181290.581853"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "3547">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftXMPP/AppDelegate.swift"
+            timestampString = "424251039.279172"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "connect()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftXMPP.AppDelegate.connect (SwiftXMPP.AppDelegate)() -&gt; Swift.Bool"
+                  moduleName = "SwiftXMPP"
+                  urlString = "file:///Users/fukurokujo/Documents/Development/SwiftXMPP/SwiftXMPP/AppDelegate.swift"
+                  timestampString = "424181346.399026"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "4134">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftXMPP.AppDelegate.connect (SwiftXMPP.AppDelegate)() -&gt; Swift.Bool"
+                  moduleName = "SwiftXMPP"
+                  urlString = "file:///Users/fukurokujo/Documents/Development/SwiftXMPP/SwiftXMPP/AppDelegate.swift"
+                  timestampString = "424181346.39928"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "4148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftXMPP/ChatViewController.swift"
+            timestampString = "424204704.289901"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "keyboardWasShown(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
