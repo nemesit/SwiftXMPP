@@ -8,8 +8,9 @@
 
 import Foundation
 
-protocol ChatDelegate {
-  func newBuddyOnLine(buddyName: NSString)
-  func buddyWentOffline(buddyName: NSString)
+protocol ChatDelegate{
+    
+  func newBuddyOnLine(buddyName: String)
+  func buddyWentOffline(buddyName: String)
   func didDisconnect()
 }
